@@ -20,7 +20,7 @@ class Algorithm {
     public:
     virtual ~Algorithm() = default;
 
-    virtual ll schedule(const std::vector<Job>& jobs) = 0;
+    virtual ll schedule(const vector<Job>& jobs) = 0;
 };
 
 #endif //TASK_7_ALGORITHM_H

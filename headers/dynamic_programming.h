@@ -9,7 +9,7 @@
 
 class DynamicProgramming : public Algorithm {
     public:
-    ll schedule(const vector<Job> &jobs) override;
+    ll schedule(const vector<Job>& jobs) override;
 };
 
 #endif //TASK_7_DYNAMIC_PROGRAMMING_H
